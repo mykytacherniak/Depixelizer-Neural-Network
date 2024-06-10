@@ -4,7 +4,7 @@ This repository contains a neural network implementation for depixelizing images
 
 ## Project Structure
 
-- `data/`: Contains original and resized training and test images.
+- `data/`: Contains original and resized training images.
 - `models/`: Stores the saved model.
 - `scripts/`: Contains all Python scripts for various tasks.
 - `requirements.txt`: Lists the dependencies required to run the project.
@@ -76,7 +76,7 @@ Use `test_on_a_subset.py` to test the model on a subset of the data.
 ### Collecting Images
 
 1. Collect images for the dataset. Ensure the images are in JPEG format and do not exceed 250kB each.
-2. Create a subset of these images and place them in the `data/training_subset/` directory.
+2. Place them in the `data/training/` directory.
 
 ### Preprocessing
 
